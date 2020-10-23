@@ -1,0 +1,18 @@
+# MacOS
+.DS_Store
+
+# Jetbrains
+*.iml
+.idea
+
+# Python
+__pycache__
+
+# Settings
+config.yml
+
+# temp file
+.ipbuffer
+
+# log
+log
