@@ -38,13 +38,13 @@ def main():
         return
     ip_manager.sync_cache()
     des_result = ddns.describe_domain_records("A", config["domain"])
-    print(des_result)
+    print(des_result["DomainRecords"]["Record"][0]["Value"])
     if des_result["TotalCount"] == 0:
         ddns.add_record("5", "600", "A", current_ip, "www", config["domain"])
     else:
         request_id = des_result["DomainRecords"]["Record"][0]["RecordId"]
         logging.debug("RequestID: " + request_id)
-        ddns.update_record("5", "600", "A", current_ip+":5500", "www", request_id)
+        ddns.update_record("5", "600", "A", current_ip, "www", request_id)
 
 
 if __name__ == '__main__':
