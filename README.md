@@ -1,20 +1,16 @@
 # Python 实现阿里云动态域名解析
 
-## 生成配置文件
-
-```
-python bin/config.py
-```
-
 ## 安装依赖
 
 ```
 pip install -r requirements.txt
 ```
 
-## 项目说明
+## 生成配置文件
 
-参考我的博客: [https://nonlinearthink.github.io/2020/10/22/aliyun-ddns-python/](https://nonlinearthink.github.io/2020/10/22/aliyun-ddns-python/)
+```
+python bin/config.py
+```
 
 ## 运行程序
 
@@ -25,3 +21,9 @@ pip install -r requirements.txt
 ```
 python main.py
 ```
+
+## 项目说明
+
+编写的思路参考我的博客: [https://nonlinearthink.github.io/2020/10/22/aliyun-ddns-python/](https://nonlinearthink.github.io/2020/10/22/aliyun-ddns-python/)
+
+> 配置文件统一编码都是 utf-8，windows 用户注意一下。
