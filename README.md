@@ -24,6 +24,6 @@ python main.py
 
 ## 项目说明
 
-编写的思路参考我的博客: [https://nonlinearthink.github.io/2020/10/22/aliyun-ddns-python/](https://nonlinearthink.github.io/2020/10/22/aliyun-ddns-python/)
+编写的思路参考我的博客: [https://nonlinearthink.github.io/python/aliyun-ddns-python/](https://nonlinearthink.github.io/python/aliyun-ddns-python/)
 
 > 配置文件统一编码都是 utf-8，windows 用户注意一下。
